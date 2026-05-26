@@ -23,3 +23,18 @@ test-xv6.out
 .bear
 compile_commands.json
 compile_commands.tmp
+
+# macOS
+.DS_Store
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# QEMU
+qemu.log
+
+# 기타
+.vscode/
